@@ -27,15 +27,15 @@ function createPokemonCard(pokemon)
   <div class="info">
   <span class="number">#${pokemon.id}</span>
   <h3 class="name">${name}</h3>
-  <h4>Ability: </h4>
+  <h4>Ability </h4>
   <span class="ability">${pokemon.abilities[0].ability.name.toUpperCase()}</span>
   <div class="move">
-   <h4>Moves: </h4>
+   <h4>Moves </h4>
   <span class="moves">1.${pokemon.moves[0].move.name.toUpperCase()}</span> <br>
   <span class="moves">2.${pokemon.moves[1].move.name.toUpperCase()}</span> <br> 
  <span class="moves">3.${pokemon.moves[2].move.name.toUpperCase()}</span>   <br>
  <span class="moves">4.${pokemon.moves[3].move.name.toUpperCase()}</span> <br>
- <h4>Weight: </h4>
+ <h4>Weight </h4>
  <span class="moves">${pokemon.weight}/kg</span> <br>
  </div>
   </div>
